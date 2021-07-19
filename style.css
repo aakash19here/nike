@@ -21,7 +21,7 @@ nav{
     top: 0;
     background-color: #1e2227 ;
     z-index: 2;
-    width: 100%;
+    width: 100vw;
 }
 .logo{
     width: 120px;
@@ -127,8 +127,11 @@ button:hover{
     transform: translateY(-5px);
 }
 @media screen and (max-width:1195px) {
+    .small-img-row{
+    flex-direction:column;
+    }
     .col-1{
-        margin-top: 20px;
+        margin-top: 40px;
         flex-basis: 100%;
     }
     .col-2{
